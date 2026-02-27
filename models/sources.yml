@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: my_raw_data
+    database: project-6592c480-173f-4a53-9fd
+    schema: my_first_dbt_dataset  
+    tables:
+      - name: LARGE_SAMPLE_ORDERS
